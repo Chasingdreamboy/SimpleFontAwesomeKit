@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SimpleFontAwesomeKit_Tests' do
+  pod 'SimpleFontAwesomeKit', :path => '../'
+  
+  
+end
