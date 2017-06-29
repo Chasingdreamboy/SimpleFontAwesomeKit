@@ -25,18 +25,18 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'acct<blob>=<NULL>' => 'wangerdong@treefinance.com.cn' }
-  s.source           = { :git => 'https://github.com/acct<blob>=<NULL>/SimpleFontAwesomeKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Chasingdreamboy/SimpleFontAwesomeKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'SimpleFontAwesomeKit/Classes/**/*'
-  
+  s.resource = 'SimpleFontAwesomeKit/Assets/ionicons.ttf'
   # s.resource_bundles = {
   #   'SimpleFontAwesomeKit' => ['SimpleFontAwesomeKit/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.public_header_files = 'SimpleFontAwesomeKit/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'CoreText'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

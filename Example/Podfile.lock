@@ -1,0 +1,16 @@
+PODS:
+  - SimpleFontAwesomeKit (0.1.0)
+
+DEPENDENCIES:
+  - SimpleFontAwesomeKit (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleFontAwesomeKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SimpleFontAwesomeKit: eebdd47659ce52d33d4e80961ff05bc0da14ac0c
+
+PODFILE CHECKSUM: f74e8365e22b05b097653c350961eb2300a681d7
+
+COCOAPODS: 1.2.1
